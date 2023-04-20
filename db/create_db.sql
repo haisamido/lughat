@@ -54,7 +54,7 @@ CREATE TABLE IF NOT EXISTS phonology.phonemes (
 
 CREATE TABLE IF NOT EXISTS phonology.allophenes (
   id SERIAL PRIMARY KEY,
-  phoneme TEXT NOT NULL UNIQUE,
+  allophene TEXT NOT NULL UNIQUE,
   metadata JSONB NOT NULL DEFAULT '{}',
   comment TEXT
 );
