@@ -60,6 +60,13 @@ CREATE TABLE IF NOT EXISTS languages.languages (
   comment TEXT
 );
 
+-- TODO: https://en.wikipedia.org/wiki/List_of_ISO_639-5_codes
+-- TODO: https://iso639-3.sil.org/code/afa
+-- TODO: https://www.ethnologue.com/language/ara/
+-- TODO: https://iso639-3.sil.org/code_tables/download_tables
+-- TODO: https://iso639-3.sil.org/code_tables/download_tables#Complete%20Code%20Tables
+-- TODO: https://github.com/datasets/language-codes
+
 CREATE TABLE IF NOT EXISTS languages.families (
   id SERIAL PRIMARY KEY,
   family TEXT NOT NULL UNIQUE,
